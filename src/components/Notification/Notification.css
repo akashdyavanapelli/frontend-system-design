@@ -54,3 +54,11 @@
   top: 20px;
   left: 20px;
 }
+
+button {
+  padding: 20px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
