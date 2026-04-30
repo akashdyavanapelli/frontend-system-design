@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>I am the Best Full Stack Developer</h1>
+      <h1>Toast Notification</h1>
       <button
         onClick={() =>
           triggerNotification({
