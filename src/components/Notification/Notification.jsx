@@ -18,13 +18,11 @@ const icons = {
 const Notification = ({ type = "", message, onClose = () => {} }) => {
   return (
     <div className={`notification ${type}`}>
-      {/* <p>This is the notification</p> */}
-
       {/* Icons */}
       {icons[type]}
       {/* Message */}
       {message}
-      {/* close button */} 
+      {/* close button */}
       <AiOutlineClose color="white" onClick={() => onClose()} />
     </div>
   );
